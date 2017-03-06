@@ -22,12 +22,10 @@ Route::get('', function(){
 
 
 */
-/*
+
 Route::get('/',function(){
 	return "<h1>Welcome!</h1>";
 });
-*/
-Route::get('/', 'WelcomeController@welcome');
 
 Route::get('/about',function(){
 	$message = <<<EOT
